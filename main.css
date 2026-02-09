@@ -3,17 +3,21 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
-.container{
+.container1{
   width: 350px;
   height: 500px;
 }
 
-.card {
+.card1 {
   height: 100%;
   width: 100%;
 }
 
-.front, .back{
+.front1, .back1{
   height: 100%;
   width: 100%;
+}
+
+.front1{
+    background-image: url(image0.jpeg);
 }
