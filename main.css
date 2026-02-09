@@ -2,3 +2,18 @@
   background: linear-gradient(45deg, #061de3, #e306ca);
   font-family: 'Times New Roman', Times, serif;
 }
+
+.container{
+  width: 350px;
+  height: 500px;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+}
+
+.front, .back{
+  height: 100%;
+  width: 100%;
+}
