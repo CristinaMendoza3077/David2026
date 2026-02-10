@@ -20,16 +20,16 @@
   height: 500px;
 }
 
+.container:hover > .card{
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
 .card {
   height: 100%;
   width: 100%;
   position: relative;
   transition: transform 1500ms;
-}
-
-.card:hover {
-  cursor: pointer;
-  transform: rotateY(180deg);
 }
 
 .front,
