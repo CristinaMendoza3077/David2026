@@ -24,6 +24,7 @@
   height: 100%;
   width: 100%;
   position: relative;
+  transition: transform 1500m;
 }
 
 .card:hover {
