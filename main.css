@@ -45,6 +45,10 @@
   background-image: url(image0.jpeg);
 }
 
+.back {
+  background-color: #3a3a3a;
+}
+
 .index {
   background: white;
 }
