@@ -52,7 +52,6 @@
   background-color: #3a3a3a;
   transform: rotateY(180deg);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
