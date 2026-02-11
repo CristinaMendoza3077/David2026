@@ -19,6 +19,10 @@
   padding: 2rem;
 }
 
+.descripcionGaleria{
+  background: linear-gradient(45deg, #061de3, #e306ca);
+}
+
 .descripcion{
   font-size: 2rem;
 }
