@@ -10,8 +10,8 @@
   background: linear-gradient(45deg, #061de3, #e306ca);
   font-family: Helvetica, sans-serif;
   color: rgb(211, 211, 211);
-  display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
 }
 
