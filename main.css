@@ -15,18 +15,18 @@
   align-items: center;
 }
 
-.container1 {
+.container {
   width: 350px;
   height: 500px;
   perspective: 500px;
 }
 
-.container1:hover > .card1{
+.container:hover > .card{
   cursor: pointer;
   transform: rotateY(180deg);
 }
 
-.card1 {
+.card {
   height: 100%;
   width: 100%;
   position: relative;
@@ -34,8 +34,8 @@
   transform-style: preserve-3d;
 }
 
-.front1,
-.back1 {
+.front,
+.back {
   height: 100%;
   width: 100%;
   border-radius: 2rem;
@@ -44,11 +44,11 @@
    backface-visibility: hidden;
 }
 
-.front1{
+.front{
   background-image: url(image0.jpeg);
 }
 
-.back1 {
+.back {
   background-color: #3a3a3a;
   transform: rotateY(180deg);
   display: flex;
