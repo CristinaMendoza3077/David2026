@@ -52,6 +52,14 @@
   background-image: url(image1.png);
 }
 
+.fondo3{
+  background-image: url(image2.jpeg);
+}
+
+.fondo4{
+  background-image: url(image3.jpeg);
+}
+
 .back {
   background-color: #3a3a3a;
   transform: rotateY(180deg);
