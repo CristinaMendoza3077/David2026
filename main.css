@@ -19,6 +19,7 @@
   width: 350px;
   height: 500px;
   perspective: 500px;
+  flex-wrap: wrap;
 }
 
 .container:hover > .card{
