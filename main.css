@@ -10,11 +10,9 @@
   background: linear-gradient(45deg, #061de3, #e306ca);
   font-family: Helvetica, sans-serif;
   color: rgb(211, 211, 211);
-  
-  
-
-  flex-wrap: wrap;
-  align-content: space-around;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -152,7 +150,7 @@
 }
 
 .nombre{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* color: DarkOliveGreen; */
     color: rgb(70, 71, 132);
     text-align: center;
