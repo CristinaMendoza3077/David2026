@@ -11,16 +11,17 @@
   font-family: Helvetica, sans-serif;
   color: rgb(211, 211, 211);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
+
+  flex-wrap: wrap;
+  align-content: space-around;
 }
 
 .container {
   width: 350px;
   height: 500px;
   perspective: 500px;
-  flex-wrap: wrap;
-  align-content: space-around;
+  
 }
 
 .container:hover > .card{
