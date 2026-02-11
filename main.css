@@ -61,3 +61,12 @@
 .index {
   background: white;
 }
+
+.directorio{
+  color: palevioletred;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(206, 181, 224);
+    /* background-color: purple; */
+    font-size:1.5rem;
+}
