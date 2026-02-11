@@ -44,20 +44,25 @@
    backface-visibility: hidden;
 }
 
+.front{
+  background-size: cover;
+  background-position: center;
+}
+
 .fondo1{
-  background-image: url(image0.jpeg);
+  background-image: url("image0.jpeg");
 }
 
 .fondo2{
-  background-image: url(image1.png);
+  background-image: url("image1.png");
 }
 
 .fondo3{
-  background-image: url(image2.jpeg);
+  background-image: url("image2.jpeg");
 }
 
 .fondo4{
-  background-image: url(image3.jpeg);
+  background-image: url("image3.jpeg");
 }
 
 .back {
