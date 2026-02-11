@@ -44,8 +44,8 @@
 
 .front,
 .back {
-  height: 350px;
-  width: 500px;
+  height: 100%;
+  width: 100%;
   border-radius: 2rem;
   box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
   position: absolute;
