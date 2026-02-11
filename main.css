@@ -5,10 +5,7 @@
 }
 
 .galeria {
-  
-
   min-height: 100vh;
-  background: linear-gradient(45deg, #061de3, #e306ca);
   font-family: Helvetica, sans-serif;
   color: rgb(211, 211, 211);
 
@@ -18,6 +15,10 @@
   align-items: flex-start; /* 🔥 clave */
   gap: 2rem;
   padding: 2rem;
+}
+
+.cuerpoGaleria{
+  background: linear-gradient(45deg, #061de3, #e306ca);
 }
 
 .container {
