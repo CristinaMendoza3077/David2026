@@ -44,7 +44,11 @@
    backface-visibility: hidden;
 }
 
-.front{
+.fondo1{
+  background-image: url(image0.jpeg);
+}
+
+.fondo2{
   background-image: url(image0.jpeg);
 }
 
