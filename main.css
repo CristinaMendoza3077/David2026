@@ -65,6 +65,66 @@
   background-image: url("image3.jpeg");
 }
 
+.fondo5{
+  background-image: url("image4.jpeg");
+}
+
+.fondo6{
+  background-image: url("image5.jpeg");
+}
+
+.fondo7{
+  background-image: url("image6.jpeg");
+}
+
+.fondo8{
+  background-image: url("image7.jpeg");
+}
+
+.fondo9{
+  background-image: url("image8.jpeg");
+}
+
+.fondo10{
+  background-image: url("image9.jpeg");
+}
+
+.fondo11{
+  background-image: url("image10.jpeg");
+}
+
+.fondo12{
+  background-image: url("image11.jpeg");
+}
+
+.fondo13{
+  background-image: url("image12.jpeg");
+}
+
+.fondo41{
+  background-image: url("image14.jpeg");
+}
+
+.fondo15{
+  background-image: url("image15.jpeg");
+}
+
+.fondo16{
+  background-image: url("image16.jpeg");
+}
+
+.fondo17{
+  background-image: url("image17.jpeg");
+}
+
+.fondo18{
+  background-image: url("image18.jpeg");
+}
+
+.fondo19{
+  background-image: url("image19.jpeg");
+}
+
 .back {
   background-color: #3a3a3a;
   transform: rotateY(180deg);
