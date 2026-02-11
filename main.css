@@ -5,22 +5,18 @@
 }
 
 .galeria {
-  
-
-
-
-  min-height: 100vh; /* mejor que height fijo */
+  height: 100vh;
+  overflow: hidden;
   background: linear-gradient(45deg, #061de3, #e306ca);
   font-family: Helvetica, sans-serif;
   color: rgb(211, 211, 211);
-
   display: flex;
   justify-content: center;
   align-items: center;
 
-  flex-wrap: wrap;       /* 🔥 importante */
-  gap: 2rem;             /* espacio entre tarjetas */
-  padding: 2rem;
+
+
+  
 }
 
 .container {
