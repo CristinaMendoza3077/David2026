@@ -29,7 +29,7 @@
 .card1 {
   height: 100%;
   width: 100%;
-  position: relative;
+  <!--position: relative;-->
   transition: transform 1500ms;
   transform-style: preserve-3d;
 }
@@ -72,7 +72,7 @@
 .card2 {
   height: 100%;
   width: 100%;
-  position: relative;
+  <!--position: relative;-->
   transition: transform 1500ms;
   transform-style: preserve-3d;
 }
