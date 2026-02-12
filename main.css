@@ -336,3 +336,28 @@
   align-items: center;
   text-align: center;
 }
+
+.ardillasTitulo{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(45deg, #9C6721, #7F613B);
+}
+
+.ardillasBonitas{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.ardillaTexto{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.ardilla{
+  background: linear-gradient(45deg, #996666, #E89E3E);
+}
