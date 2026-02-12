@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+.slide {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inside {
+  font-size: 2em;
+  color: white;
+  padding: 0 2rem;
+}
+
+.main-wrapper{
+  transition: background-color 0.8s ease;
+}
+
+
+
 .galeria {
   min-height: 100vh; /* mejor que height fijo */
   background: linear-gradient(45deg, #061de3, #e306ca);
