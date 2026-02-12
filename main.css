@@ -329,3 +329,10 @@
     51vw 92vh 2px white, 59vw 78vh 1px white;
   animation: twinkle 6s infinite linear reverse;
 }
+
+
+.ardillasfotos{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
