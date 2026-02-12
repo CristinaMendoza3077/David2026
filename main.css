@@ -36,7 +36,9 @@
   text-align: center;
 }
 
-
+.musicaa{
+  background-color: #004C99;
+}
 
 .galeria {
   min-height: 100vh; /* mejor que height fijo */
