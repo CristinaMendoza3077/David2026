@@ -40,6 +40,11 @@
   background-color: #004C99;
 }
 
+.fotos{
+  justify-content: center;
+  align-items: center;
+}
+
 .galeria {
   min-height: 100vh; /* mejor que height fijo */
   background: linear-gradient(45deg, #061de3, #e306ca);
