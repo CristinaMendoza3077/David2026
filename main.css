@@ -4,40 +4,6 @@
   box-sizing: border-box;
 }
 
-
-.main-wrapper {
-  font-family: 'Coming Soon', cursive;
-  transition: background 1s ease;
-   background: #3498db;
-}
-
-.inside {
-  color: #ecf0f1;
-  font-size: 2em;
-  text-align: center;
-  
-}
-
-
-.slide {
-  
-  .inside {
-    display: table;
-    height: 100%;
-    width: 100%;
-    padding: 0 3em;
-    
-    h1 {
-      display: table-cell;
-      width: 100%;
-      clear: both;
-      vertical-align: middle; 
-      text-align: center; 
-    }
-  }
-}
-
-
 .galeria {
   min-height: 100vh; /* mejor que height fijo */
   background: linear-gradient(45deg, #061de3, #e306ca);
