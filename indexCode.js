@@ -1,18 +1,21 @@
-$( window ).ready(function() {
-  
-    var wHeight = $(window).height();
+document.addEventListener("DOMContentLoaded", function () {
+  const slides = document.querySelectorAll(".slide");
 
-    $('.slide')
-      .height(wHeight)
-      .scrollie({
-        scrollOffset : -50,
-        scrollingInView : function(elem) {
-                   
-          var bgColor = elem.data('background');
-          
-          $('body').css('background-color', bgColor);
-          
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const bgColor = entry.target.dataset.background;
+          document.body.style.backgroundColor = bgColor;
         }
       });
+    },
+    {
+      threshold: 0.6, // cambia cuando 60% del slide es visible
+    }
+  );
 
+  slides.forEach((slide) => {
+    observer.observe(slide);
   });
+});
