@@ -19,6 +19,7 @@
 }
 
 .index{
+  background-color: #3498db; /* color inicial */
   transition: background-color 0.8s ease;
 }
 
