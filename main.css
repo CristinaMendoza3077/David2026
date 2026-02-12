@@ -429,7 +429,7 @@
 }
 
 /* Style the header */
-.header {
+.plan {
   background-color: #f44336;
   padding: 30px 40px;
   color: white;
@@ -437,7 +437,7 @@
 }
 
 /* Clear floats after the header */
-.header:after {
+.plan:after {
   content: "";
   display: table;
   clear: both;
