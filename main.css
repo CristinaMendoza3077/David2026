@@ -16,7 +16,7 @@
   font-size: 2em;
   color: white;
   padding: 0 2rem;
-  font-family: 'Coming Soon', cursive;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .index{
@@ -29,7 +29,7 @@
 .galeria {
   min-height: 100vh; /* mejor que height fijo */
   background: linear-gradient(45deg, #061de3, #e306ca);
-  font-family: Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: rgb(211, 211, 211);
 
   display: flex;
