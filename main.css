@@ -361,9 +361,15 @@
 /*ARDILLAS*/
 /*Body of ardillas*/
 .ardillasfotos{
+
+  display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  
   background: linear-gradient(45deg, #9C6721, #7F613B);
 }
 
