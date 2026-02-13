@@ -510,3 +510,8 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
+
+.textoPlanes{
+  text-align: center;
+  font-size: 1rem;
+}
