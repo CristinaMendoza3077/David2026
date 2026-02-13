@@ -1,9 +1,15 @@
+/*General setting about the whole pages*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
+
+/*GALERIA*/
+
+/*Information about the card slide*/
 .slide {
   height: 100vh;
   display: flex;
@@ -12,6 +18,7 @@
   text-align: center;
 }
 
+
 .inside {
   font-size: 2em;
   color: white;
@@ -19,11 +26,15 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+/*INDEX*/
 .index{
   background-color: #AC96BA; /* color inicial */
   transition: background-color 0.8s ease;
 }
 
+
+/*MUSICA*/
 .tituloMusica{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 3rem;
