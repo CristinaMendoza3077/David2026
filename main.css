@@ -370,7 +370,8 @@
   gap: 2rem;
   padding: 2rem;*/
   
-  background: linear-gradient(45deg, #9C6721, #7F613B);
+  /*background: linear-gradient(45deg, #9C6721, #7F613B);*/
+  background-color: white;
 }
 
 /*Title and text of ardillas*/
