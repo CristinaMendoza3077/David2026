@@ -378,16 +378,12 @@
 
 /*Title of ardillas*/
 .ardillasBonitas{
-  justify-content: center;
-  align-items: center;
   text-align: center;
   font-size: 3rem;
 }
 
 /*Text of ardillas*/
 .ardillaTexto{
-  justify-content: center;
-  align-items: center;
   text-align: center;
   font-size: 2rem;
 }
