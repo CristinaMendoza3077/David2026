@@ -18,40 +18,12 @@
   text-align: center;
 }
 
-
+/*Inside elements of the card*/
 .inside {
   font-size: 2em;
   color: white;
   padding: 0 2rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-/*INDEX*/
-.index{
-  background-color: #AC96BA; /* color inicial */
-  transition: background-color 0.8s ease;
-}
-
-
-/*MUSICA*/
-.tituloMusica{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 3rem;
-  text-align: center;
-}
-
-.musica{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 2rem;
-  text-align: center;
-}
-
-.musicaa{
-  background-color: #004C99;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 .fotos{
@@ -206,6 +178,19 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+.tituloGaleria{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+
+
+
+
+/*Directorio*/
+/*Content directorio*/
 .directorio{
   color: palevioletred;
     text-align: center;
@@ -215,6 +200,7 @@
     font-size:1.5rem;
 }
 
+/*Title directorio*/
 .nombre{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* color: DarkOliveGreen; */
@@ -224,11 +210,14 @@
     background-color:rgb(206, 181, 224);
 }
 
-.tituloGaleria{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: center;
-  font-size: 3rem;
-  color: white;
+
+
+
+
+/*INDEX*/
+.index{
+  background-color: #AC96BA; /* color inicial */
+  transition: background-color 0.8s ease;
 }
 
 .valentin{
@@ -247,8 +236,30 @@
 
 
 
+/*MUSICA*/
+/*Setting for title musica*/
+.tituloMusica{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
 
+/*Setting for text after the title in musica*/
+.musica{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
 
+/*Alignment for title and text at the beginning*/
+.musicaa{
+  background-color: #004C99;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*Body for musica*/
 .music {
   justify-content: center;
   align-items: center;
@@ -256,6 +267,7 @@
   background: linear-gradient(to bottom, #0b0b2b, #1b2735 70%, #090a0f);
 }
 
+/*Background of musica: stars*/
 .stars {
   width: 1px;
   height: 1px;
@@ -277,6 +289,7 @@
   animation: twinkle 8s infinite linear;
 }
 
+/*Setting for shooting-star in musica*/
 .shooting-star {
   position: absolute;
   width: 100px;
@@ -342,13 +355,19 @@
 }
 
 
+
+
+
+/*ARDILLAS*/
+/*Body of ardillas*/
 .ardillasfotos{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: white;
+  background: linear-gradient(45deg, #9C6721, #7F613B);
 }
 
+/*Title and text of ardillas*/
 .ardillasTitulo{
   justify-content: center;
   align-items: center;
@@ -357,6 +376,7 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*Title of ardillas*/
 .ardillasBonitas{
   justify-content: center;
   align-items: center;
@@ -364,6 +384,7 @@
   font-size: 3rem;
 }
 
+/*Text of ardillas*/
 .ardillaTexto{
   justify-content: center;
   align-items: center;
@@ -373,6 +394,9 @@
 
 
 
+
+
+/*PLANES*/
 /* Remove margins and padding from the list */
 .lista {
   margin: 0;
